@@ -1,0 +1,165 @@
+{
+  "assets": [
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "vertical 9:16 theatre stage backdrop, parted deep violet velvet curtains, dark polished podium, soft haze, near-black aubergine, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text, no UI"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "vertical 9:16 blurred theatre stage backdrop, low contrast, dark aubergine and violet, faint dust motes, clear centre for an overlay grid, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text, no UI"
+    },
+    {
+      "name": "sprite_mirror_prism",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_mirror_prism.png",
+      "prompt": "diagonal bar running from the BOTTOM-LEFT corner to the TOP-RIGHT corner (a slash), one single faceted mirror stone, square silhouette, glossy bevelled edges, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_stone_blank",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_stone_blank.png",
+      "prompt": "one single dull rounded gem stone, matte, no reflection, square silhouette, symmetric, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_block_onyx",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_block_onyx.png",
+      "prompt": "one single black onyx cube with chipped edges, symmetric, square silhouette, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_emitter",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_emitter.png",
+      "prompt": "one single theatrical spotlight lantern head, side view, beam aperture facing RIGHT, brass rim, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_facet_target",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_facet_target.png",
+      "prompt": "one single unlit faceted crystal facet plate, dull, symmetric, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_facet_lit",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_facet_lit.png",
+      "prompt": "one single glowing faceted crystal facet plate, radiant core, symmetric, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_beam_straight",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_beam_straight.png",
+      "prompt": "square tile with a single light beam entering at the LEFT edge and leaving at the RIGHT edge, clean soft-edged ray, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_beam_turn",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_beam_turn.png",
+      "prompt": "square tile with a single light beam entering at the LEFT edge and leaving at the TOP edge, rounded elbow, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_cell_slot",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_cell_slot.png",
+      "prompt": "one single empty square socket plate with a thin inner bevel, symmetric, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_board_frame",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_board_frame.png",
+      "prompt": "ornate square theatre frame, completely transparent empty centre, carved violet metal, symmetric, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_gem_mark",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_gem_mark.png",
+      "prompt": "one single large faceted rhombus gem emblem with three short rays leaving its facets, symmetric, abstract mark, no letters, no text, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_star_full",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_star_full.png",
+      "prompt": "one single filled five-pointed award star, symmetric, glossy, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_star_empty",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_star_empty.png",
+      "prompt": "one single hollow outlined five-pointed star, symmetric, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_strike_pip",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_strike_pip.png",
+      "prompt": "one single small round gem pip, symmetric, glossy, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_curtain_swag",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_curtain_swag.png",
+      "prompt": "one single draped velvet curtain swag with a tassel, hanging from the TOP-LEFT corner, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_close.png",
+      "prompt": "one single thick X close icon, symmetric, rounded ends, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_icon_pause",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_pause.png",
+      "prompt": "one single two-bar pause icon, symmetric, rounded ends, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_icon_back",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_back.png",
+      "prompt": "one single chevron arrow icon pointing LEFT, rounded ends, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_icon_gear",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_gear.png",
+      "prompt": "one single settings gear icon, symmetric, thick teeth, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_icon_lock",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_lock.png",
+      "prompt": "one single closed padlock icon, symmetric, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    },
+    {
+      "name": "sprite_plate",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_plate.png",
+      "prompt": "one single plain rounded rectangle plaque with a thin raised rim, horizontal, symmetric, flat centre, cel-shaded toon game art, bold dark outlines, glossy faceted surfaces, saturated theatrical neon rim light, no text"
+    }
+  ]
+}

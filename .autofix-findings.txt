@@ -1,0 +1,10 @@
+--- порядок и текст ---
+[ui-draw-order] C.15 GamePopPresenter.cs — текст-рыба в самом коде:
+          12:/// (including its "lorem ipsum" placeholder) can reach a screen.
+[ui-draw-order] нарушений C.14: 1 — текст будет нечитаемым
+{"ok":false,"hard":1,"warn":0}
+
+--- последняя ошибка пайплайна ---
+PIPELINE_INFRA_ERROR: ui_text_contrast_c14
+Проверки на текущих файлах: см. выше
+

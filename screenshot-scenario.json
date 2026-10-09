@@ -1,0 +1,49 @@
+{
+  "note": "tapFrac is [x, y] normalised SCREEN coordinates, origin TOP-LEFT. UI taps come straight from each control's RectTransform anchor inside DefaultPanel/Content (a full-screen rect), so screen x = anchorX and screen y = 1 - anchorY. Board taps are world points converted through the orthographic camera (size 5): the board cell is width-bound (cell = 2*halfW*0.92/8), which makes x aspect-invariant; the two y values are the midpoint of the 16:9 and 20:9 solutions so each tap stays inside its cell on both. The swap in steps 6-7 is the SOLVING swap for scheme 0 attempt 0 - (2,4) and (2,5) - computed by running SchemeGenerator headlessly, so step 8 LOCK IN raises the Win pop. Loader waits use waitLoader because both scenes show their own splash (menu: MainThreadUtil.LaunchGame, game: PanelController.SwitchSplash).",
+  "steps": [
+    {
+      "wait": 3.0,
+      "shot": "01_Splash"
+    },
+    {
+      "waitLoader": true,
+      "shot": "02_Menu"
+    },
+    {
+      "tapFrac": [0.5, 0.867],
+      "label": "HOW TO PLAY",
+      "wait": 1.6,
+      "shot": "03_HowToPlay"
+    },
+    {
+      "tapFrac": [0.5, 0.965],
+      "label": "overlay shade below the card - closes HOW TO PLAY",
+      "wait": 1.0,
+      "shot": "04_MenuReady"
+    },
+    {
+      "tapFrac": [0.5, 0.7],
+      "label": "PLAY",
+      "waitLoader": true,
+      "shot": "05_Game"
+    },
+    {
+      "tapFrac": [0.4425, 0.388],
+      "label": "mirror stone at grid (2,4) - selects it",
+      "wait": 1.0,
+      "shot": "06_StoneSelected"
+    },
+    {
+      "tapFrac": [0.4425, 0.333],
+      "label": "stone at grid (2,5) - swaps the pair, beams re-route",
+      "wait": 1.6,
+      "shot": "07_BeamsRouted"
+    },
+    {
+      "tapFrac": [0.5, 0.918],
+      "label": "LOCK IN - verifies the route and raises the Win pop",
+      "wait": 2.4,
+      "shot": "08_WinPop"
+    }
+  ]
+}
